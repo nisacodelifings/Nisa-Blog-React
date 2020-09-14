@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <main>
         <Box id="purple" judul="About Our Skills" />
-        <Box id="red" />
+        <Box id="blue" />
         <Box id="green" />
         <Box id="pink" />
       </main>

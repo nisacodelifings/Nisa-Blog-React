@@ -21,7 +21,7 @@ section h3 {
   border: 2px solid;
   background-color: white;
 }
-#green {
+#blue {
   color: darkcyan;
 }
 #purple {
@@ -30,7 +30,7 @@ section h3 {
 #pink {
   color: darkmagenta;
 }
-#red {
+#green {
   color: green;
 }
 #purple > P > b,
@@ -50,7 +50,4 @@ a:hover {
 }
 .box > a {
   color: black;
-}
-.box > a:hover {
-  color: white;
 }
