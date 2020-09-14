@@ -45,12 +45,12 @@ a {
   padding: 5px;
 }
 a:hover {
-  background: #6cc7f6;
-  color: green;
+  background: tomato;
+  color: white;
 }
 .box > a {
-  color: darkcyan;
+  color: black;
 }
 .box > a:hover {
-  color: black;
+  color: white;
 }
