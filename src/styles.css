@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 header {
-  background-color: slateblue;
+  background-color: darkcyan;
   padding: 5px 20px;
   color: whitesmoke;
 }
@@ -21,12 +21,36 @@ section h3 {
   border: 2px solid;
   background-color: white;
 }
-#classes {
+#green {
+  color: darkcyan;
+}
+#purple {
   color: slateblue;
 }
-#ids {
-  color: tomato;
+#pink {
+  color: darkmagenta;
 }
-#classes > P > b, #ids li > b {
+#red {
+  color: green;
+}
+#purple > P > b,
+#red li > b {
   color: goldenrod;
+}
+a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 5px solid hotpink;
+  padding: 5px;
+}
+a:hover {
+  background: #6cc7f6;
+  color: green;
+}
+.box > a {
+  color: darkcyan;
+}
+.box > a:hover {
+  color: black;
 }
