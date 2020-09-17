@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 body {
   margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+p::selection, h3::selection, li::selection, b::selection {
+  background: darkcyan;
+  color: white;
 }
 header {
   background-color: darkcyan;
@@ -19,23 +25,18 @@ section h3 {
 }
 .box {
   border: 2px solid;
-  background-color: white;
+  background-color: wheat;
 }
-#blue {
+#hijau {
   color: darkcyan;
 }
-#purple {
-  color: slateblue;
-}
-#pink {
-  color: darkmagenta;
-}
-#green {
-  color: green;
-}
-#purple > P > b,
-#red li > b {
+ P > b,
+li > b {
   color: goldenrod;
+}
+.baca{
+  background: darkcyan;
+  color: white;
 }
 a {
   margin-right: 15px;
@@ -48,6 +49,4 @@ a:hover {
   background: tomato;
   color: white;
 }
-.box > a {
-  color: black;
-}
+

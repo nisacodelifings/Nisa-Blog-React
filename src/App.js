@@ -6,10 +6,10 @@ export default function App() {
   return (
     <div className="App">
       <main>
-        <Box id="purple" judul="About Our Skills" />
-        <Box id="blue" />
-        <Box id="green" />
-        <Box id="pink" />
+        <Box id="hijau" judul="About Our Skills" />
+        <Box id="hijau" />
+        <Box id="hijau" />
+        <Box id="hijau" />
       </main>
     </div>
   );

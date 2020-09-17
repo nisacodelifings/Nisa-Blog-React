@@ -18,7 +18,7 @@ export default function Box(props) {
         if you think "other people can, how can I?" Yes, those words are true.
         But ... <b>please, you have to focus!</b>
       </p>
-      <a href="#" target="_blank">
+      <a href={props.baca} class="baca">
         Read More
       </a>
     </section>
